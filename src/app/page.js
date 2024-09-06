@@ -1,9 +1,12 @@
-import AdminForm from "../components/AdminForm";
+// src/app/page.js
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="container mx-auto">
-      <AdminForm />
+    <div>
+      <h1>Welcome to the Quiz App</h1>
+      <p>
+        Go to the <a href="/admin">Admin Page</a> to add new questions.
+      </p>
     </div>
   );
 }
